@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rusty-py-boilerplate"
+version = "0.0.1"
+description = ""
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "build==1.0.3", "ruff==0.2.2",
+]
+
+[tool.huak.task]
+main = "python3 src/rusty_py_boilerplate/main.py"
+greet = "python3 src/rusty_py_boilerplate/greet.py"
+maths = "python3 src/rusty_py_boilerplate/maths.py"
+guess = "python3 src/rusty_py_boilerplate/guess.py"
