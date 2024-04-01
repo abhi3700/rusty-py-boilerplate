@@ -124,6 +124,12 @@ That's it for the setup of any rusty-python project using `huak` & `maturin` ðŸŽ
 huak build
 ```
 
+### Init
+
+```sh
+huak init
+```
+
 ### Run
 
 There are many programs to try.
@@ -137,6 +143,14 @@ huak run greet
 huak run maths
 huak run guess
 ```
+
+### Generate `requirements.txt`
+
+```sh
+huak freeze
+```
+
+> Use the huak with [PR](https://github.com/cnpryer/huak/pull/897) merged. Or else, use this [version of huak](https://github.com/abhi3700/huak).
 
 ### Format
 
